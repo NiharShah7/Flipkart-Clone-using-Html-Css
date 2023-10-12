@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     font-family: 'Lato', sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+.navbar {
+    
+    background-color: #2874f0;
+
+
+}
+
+.img1 {
+    padding: 10px;
+    width: 120px;
+    height:60px ;
+    margin-right: 1200px;
+    
+}
+.input-box{
+    margin-right: 40px;
+}
+
+.right-nav-links{
+  
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.atag{
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.ul-list  :hover{
+
+    color: black;
+    font-weight: bold;
+    transition: 0.1s ease-in-out;
+    text-decoration: none;
+   
+   
+}  
+.footer{
+    height: 100px;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.main-container{
+ 
+    min-height: calc(100vh - 100px - 60px ) ;
+}
+.socials{
+    display: flex;
+}
+
+.socials a {
+    color: aliceblue;
+    text-decoration: none;
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70px;
+    height: 30px;
+
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: rgb(247, 239, 239); */
+    background-color: #c7d8d5;
+}
+.main-container h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.see-more{
+    color: #007185;
+    margin-left: 8px;
+}
+
+.box{
+    background-color: aliceblue;
+    height: 380px;
+    width: 23%;
+    /* border: 2px solid red; */
+   
+}
+.box-img img{
+    height: 300px;
+    width:95%;
+    padding: 20px;
+}
+
+.semimid{
+    background-image: url("images/hero_image.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+}
+.hero-msg{
+    width: 70%;
+    color: rgb(0, 0, 0);
+    background-color:white ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 17px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif
+}
+.hero-msg a {
+    color:#007185; ;
+}
+
